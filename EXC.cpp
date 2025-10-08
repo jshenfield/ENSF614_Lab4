@@ -15,8 +15,8 @@ using namespace std;
 class Resizeable{
 
 public:
-    void enlarge (int n);
-    void shrink (int n);
+    void enlarge (int n) = 0;
+    void shrink (int n) = 0;
 
 };
 
